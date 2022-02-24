@@ -11,7 +11,8 @@
         "--socket=x11",
         "--socket=wayland",
         "--socket=session-bus",
-        "--device=dri"
+        "--device=dri",
+	"--share=network"
     ],
 
     "cleanup": [
